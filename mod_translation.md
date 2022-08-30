@@ -27,10 +27,8 @@
 6. when you're done send me the file back on discord or commit it on github if you're familiar with that
 
 -----
+The part after the colon is the text that you now have to translate:
 
-`Examples:`
-
-The last part before the colon is the text to be translated. The part after the colon now has to be translated by the text to be translated.
 ```json
 {
     // translated by XxRexRaptorxX
@@ -40,5 +38,19 @@ The last part before the colon is the text to be translated. The part after the 
     "item.bedrockminer.bedrock_axe": "Bedrock Axe",
     "item.bedrockminer.bedrock_hoe": "Bedrock Hoe",
     "item.bedrockminer.bedrock_helmet": "Bedrock Helmet",
+}
+```
+
+-----
+But make sure to keep the text formatting, symbols, spaces or special characters:
+
+```json
+{
+    "message.nexus.nexus_destruction": " destroyed the Nexus!",
+    "message.nexus.gamemode_line_5": "> Assign all players to the teams: /team join <team> [playerName]",
+    "message.nexus.hold_shift.desc": "Hold [Shift] for more information.",
+
+    "block.nexus.nexus_red": "§cNexus",
+    "block.nexus.nexus_blue": "§9Nexus",
 }
 ```

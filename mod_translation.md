@@ -10,7 +10,7 @@
 
 `Rewards:`
 - you are now part of a mod! yey!
-- they are mentioned as a translator in the language file
+- you are mentioned as a translator in the language file
 - you earn a special rank on my discord
 
 -----

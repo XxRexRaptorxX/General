@@ -41,7 +41,6 @@ The part after the colon is the text that you now have to translate:
 }
 ```
 
------
 But make sure to keep the text formatting, symbols, spaces or special characters:
 
 ```json
@@ -54,3 +53,6 @@ But make sure to keep the text formatting, symbols, spaces or special characters
     "block.nexus.nexus_blue": "§9Nexus",
 }
 ```
+
+----
+# Thanks for your help!

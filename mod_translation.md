@@ -15,5 +15,8 @@
 
 -----
 
-`How it works!:`
-
+`How it works:`
+1. your get the file
+2. rename the file name to your language
+3. it's best to open the file with the program Notepad++ (https://notepad-plus-plus.org/downloads/)
+4. translate all names on the right side (if you are not sure what is meant by something, please contact me)

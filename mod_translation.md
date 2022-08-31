@@ -1,5 +1,4 @@
 # Description how to translate my mods
------
 
 `Requirements:`
 - let me know beforehand
@@ -26,8 +25,10 @@
 5. translate all names on the right side (if you are not sure what is meant by something, please contact me)
 6. when you're done send me the file back on discord or commit it on github if you're familiar with that
 
-# Examples
 -----
+
+# Examples
+
 The part after the colon is the text that you now have to translate:
 
 ```json

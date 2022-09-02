@@ -20,7 +20,7 @@
 3. it's best to open and edit the file with the program Notepad++ (https://notepad-plus-plus.org/downloads/)
 4. add this line on the top of the file:
 ```j
-// translated by [your username]
+"_comment": "translated by [your username],"
 ```
 5. translate all names on the right side (if you are not sure what is meant by something, please contact me)
 6. when you're done send me the file back on discord or commit it on github if you're familiar with that
@@ -33,7 +33,8 @@ The part after the colon is the text that you now have to translate:
 
 ```json
 {
-    // translated by XxRexRaptorxX
+    "_comment": "translated by XxRexRaptorxX,"
+
     "item.bedrockminer.bedrock_sword": "Bedrock Sword",
     "item.bedrockminer.bedrock_shovel": "Bedrock Shovel",
     "item.bedrockminer.bedrock_pickaxe": "Bedrock Pickaxe",

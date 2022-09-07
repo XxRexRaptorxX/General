@@ -3,6 +3,7 @@
 `Requirements:`
 - let me know beforehand
 - only translate in your native language
+- good english knowledge
 - make sure the language is not yet available
 
 -----

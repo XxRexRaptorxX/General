@@ -17,7 +17,7 @@
 
 `How it works:`
 1. your get the file
-2. rename the file name to your language (https://minecraft.fandom.com/wiki/Language)
+2. rename the file name to your language (https://minecraft.fandom.com/wiki/Language => ingame name)
 3. it's best to open and edit the file with the program Notepad++ (https://notepad-plus-plus.org/downloads/)
 4. add this line on the top of the file:
 ```j

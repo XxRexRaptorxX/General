@@ -21,7 +21,7 @@
 3. it's best to open and edit the file with the program Notepad++ (https://notepad-plus-plus.org/downloads/) or Eclipse & IntelliJ
 4. add this line on the top of the file:
 ```j
-"_comment": "translated by [your username],"
+"_comment": "translated by [YOUR USERNAME],"
 ```
 5. translate all names on the right side (if you are not sure what is meant by something, please contact me)
 6. when you're done send me the file back on discord or commit it on github if you're familiar with that

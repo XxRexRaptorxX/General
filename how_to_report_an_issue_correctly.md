@@ -1,4 +1,4 @@
-# You have a bug, error or crash in the game and want to report the error now?      <img src="https://static.wikia.nocookie.net/minecraft_gamepedia/images/e/ea/Redstone_Bug.gif/revision/latest?cb=20201130224258" alt="curseforge launcher" width="60"/>
+# You have a bug, error or crash in the game and want to report the error now?      <img src="https://static.wikia.nocookie.net/minecraft_gamepedia/images/e/ea/Redstone_Bug.gif/revision/latest?cb=20201130224258" alt="curseforge launcher" title="I`m a bad bug!" width="60"/>
 
 Then the log file of the game is usually required to solve the problem so that the developers can see what is happening at a technical level.
 

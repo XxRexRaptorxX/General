@@ -47,6 +47,6 @@ This varies depending on which Minecraft launcher you use.
 
 ## Now you have successfully reported a problem in the **right way**! Hurray!
 
-The way i handle it is that every player who found a bug in my mods and reported it to me gets the **Bughunter** rank on my discord as a reward, so go and get it! :)
+Every player who found a bug in my mods and reported it to me gets the **Bughunter** rank on my discord as a reward, so go and get it! :)
 
 [<img src="https://i.imgur.com/S6yh9xW.png" width="300"/>](https://discord.gg/ycRJJk8EXV)

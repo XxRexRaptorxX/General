@@ -1,4 +1,4 @@
-# You have a bug, error or crash in the game and want to report the error now?
+# You have a bug, error or crash in the game and want to report the error now?      <img src="https://static.wikia.nocookie.net/minecraft_gamepedia/images/e/ea/Redstone_Bug.gif/revision/latest?cb=20201130224258" alt="curseforge launcher" width="60"/>
 
 Then the log file of the game is usually required to solve the problem so that the developers can see what is happening at a technical level.
 
@@ -49,6 +49,14 @@ This varies depending on which Minecraft launcher you use.
 
 > #### Every player who found a bug in my mods and reported it to me gets the **Bughunter** rank on my discord as a reward, so go and get it!
 
-[<img src="https://i.imgur.com/S6yh9xW.png" width="300"/>](https://discord.gg/ycRJJk8EXV)
+<p align="center">
+  <a href="https://discord.gg/ycRJJk8EXV" title="Join our Discord!">
+    <img src="https://i.imgur.com/S6yh9xW.png" alt="Discord Button" width="300"/>
+  </a>
+</p>
 
-   ### - [RexRaptor](https://www.curseforge.com/members/xxrexraptorxx/projects)
+<p align="center">
+  <a href="https://www.curseforge.com/members/xxrexraptorxx/projects" title="View RexRaptor's CurseForge Projects">
+    <img src="https://static-cdn.jtvnw.net/jtv_user_pictures/f075d4c3-e77f-4224-9fbe-a334a5ce3d51-profile_image-150x150.png" alt="RexRaptor Profile Picture" width="150"/>
+  </a>
+</p>

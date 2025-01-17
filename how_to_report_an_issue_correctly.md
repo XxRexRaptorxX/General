@@ -39,7 +39,7 @@ This varies depending on which Minecraft launcher you use.
 1. Drag the `latest.log` file into the page and press `save`.
 2. Now your converted log appears. Copy the url (in the address line of your browser).
       - It should look something like this: `https://mclo.gs/MTurevInx`
-3. Go to the [Curseforge](https://www.curseforge.com/members/xxrexraptorxx/projects) project page of the corresponding mog and go to the `Issues` tab.
+3. Go to the [Curseforge](https://www.curseforge.com/members/xxrexraptorxx/projects) project page of the corresponding mod and go to the `Issues` tab.
 4. See if the same problem has already been reported and if not, open a new one.
 5. Now enter all important information about the problem and the link to your log.
 

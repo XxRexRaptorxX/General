@@ -17,7 +17,7 @@ This varies depending on which Minecraft launcher you use.
  2. Open the `logs` folder.
 
 
-#### [Here](https://www.bisecthosting.com/clients/index.php?rp=/knowledgebase/249/How-to-find-client-logs-on-modded-Minecraft-launchers.html) you can find instructions for other launchers if you need further help!
+> #### [Here](https://www.bisecthosting.com/clients/index.php?rp=/knowledgebase/249/How-to-find-client-logs-on-modded-Minecraft-launchers.html) you can find instructions for other launchers if you need further help!
 
 
 - ## The vanilla Minecraft launcher
@@ -47,6 +47,8 @@ This varies depending on which Minecraft launcher you use.
 
 ## Now you have successfully reported a problem in the **right way**! Hurray!
 
-Every player who found a bug in my mods and reported it to me gets the **Bughunter** rank on my discord as a reward, so go and get it! :)
+> #### Every player who found a bug in my mods and reported it to me gets the **Bughunter** rank on my discord as a reward, so go and get it!
 
 [<img src="https://i.imgur.com/S6yh9xW.png" width="300"/>](https://discord.gg/ycRJJk8EXV)
+
+   ### - [RexRaptor](https://www.curseforge.com/members/xxrexraptorxx/projects)

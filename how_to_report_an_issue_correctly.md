@@ -42,6 +42,12 @@ This varies depending on which Minecraft launcher you use.
 3. Go to the [Curseforge](https://www.curseforge.com/members/xxrexraptorxx/projects) project page of the corresponding mod and go to the `Issues` tab.
 4. See if the same problem has already been reported and if not, open a new one.
 5. Now enter all important information about the problem and the link to your log.
+ 
+ > #### What is important information:
+ >   - what exactly happened?
+ >   - when did it happen? (at the start of the game, when loading the world, when placing the block, etc.)
+ >   - are other mods involved?
+ >   - did the whole thing happen in singleplayer or on a server? (if it happens on a server, the [server log](https://www.bisecthosting.com/clients/knowledgebase/136/How-to-find-and-view-Minecraft-server-logs-and-crash-reports.html) may also be interesting)
 
 ----
 

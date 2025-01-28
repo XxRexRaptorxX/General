@@ -11,7 +11,7 @@
 `Rewards:`
 - you are now part of a mod! yey!
 - you are mentioned as a translator in the language file
-- you earn a special rank on my discord
+- you earn a special rank on [my discord](https://discord.gg/ycRJJk8EXV)
 
 -----
 
@@ -60,3 +60,6 @@ But make sure to keep the text formatting, symbols, spaces or special characters
 
 ----
 # Thanks for your help!
+
+![Bisect Hosting Banner](https://github.com/XxRexRaptorxX/General/blob/main/BH_REX_Bisect.png?raw=true)
+

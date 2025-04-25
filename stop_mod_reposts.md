@@ -1,7 +1,8 @@
 I wrote these methods to better educate players about the problem of mod reposts. as a developer, feel free to integrate them into your mods!
 
+-----
 
-#### Neoforge 
+### Neoforge 
 ```
     /**
      * @author XxRexRaptorxX (RexRaptor)

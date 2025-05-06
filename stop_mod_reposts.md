@@ -72,21 +72,25 @@ I wrote these methods to better educate players about the problem of mod reposts
                     """;
 
                 Files.writeString(marker, fileContent, StandardCharsets.UTF_8);
+                String launcher = FMLLoader.getLauncherInfo().toLowerCase();
 
-                player.sendSystemMessage(Component.literal("Important Information about mod reposts:\n").withStyle(ChatFormatting.UNDERLINE).withStyle(ChatFormatting.DARK_RED));
-                player.sendSystemMessage(Component.literal("Sites like 9minecraft.net, mc-mod.net, etc. are known for reuploading mod files without permissions. \nThese sites will also contain a bunch of ads, to try to make money from mods they did not create.\n").withStyle(ChatFormatting.RED));
-                player.sendSystemMessage(Component.literal("For you, this can mean any of the following:").withStyle(ChatFormatting.UNDERLINE).withStyle(ChatFormatting.RED));
-                player.sendSystemMessage(Component.literal("- Modified versions of mods, which may contain malware & viruses").withStyle(ChatFormatting.RED));
-                player.sendSystemMessage(Component.literal("- Having your information stolen from malicious ads").withStyle(ChatFormatting.RED));
-                player.sendSystemMessage(Component.literal("- Old and broken mod versions that can corrupt your world").withStyle(ChatFormatting.RED));
-                player.sendSystemMessage(Component.literal("- Taking money and views away from the real authors, which may cause them to stop making mods").withStyle(ChatFormatting.RED));
+                if (!launcher.contains("curseforge") || !launcher.contains("modrinth") || !launcher.contains("prism")) {
+                    YOURMOD.LOGGER.info("Stop-mod-reposts info message is generated. Don't worry, this message should only appear the very first time after installation!");
+                    player.sendSystemMessage(Component.literal("Important Information about mod reposts:\n").withStyle(ChatFormatting.UNDERLINE).withStyle(ChatFormatting.DARK_RED));
+                    player.sendSystemMessage(Component.literal("Sites like 9minecraft.net, mc-mod.net, etc. are known for reuploading mod files without permissions. \nThese sites will also contain a bunch of ads, to try to make money from mods they did not create.\n").withStyle(ChatFormatting.RED));
+                    player.sendSystemMessage(Component.literal("For you, this can mean any of the following:").withStyle(ChatFormatting.UNDERLINE).withStyle(ChatFormatting.RED));
+                    player.sendSystemMessage(Component.literal("- Modified versions of mods, which may contain malware & viruses").withStyle(ChatFormatting.RED));
+                    player.sendSystemMessage(Component.literal("- Having your information stolen from malicious ads").withStyle(ChatFormatting.RED));
+                    player.sendSystemMessage(Component.literal("- Old and broken mod versions that can corrupt your world").withStyle(ChatFormatting.RED));
+                    player.sendSystemMessage(Component.literal("- Taking money and views away from the real authors, which may cause them to stop making mods").withStyle(ChatFormatting.RED));
 
-                MutableComponent url = Component.literal(ChatFormatting.GOLD + "* Click here for more information *");
-                url.withStyle(url.getStyle().withClickEvent(new ClickEvent(ClickEvent.Action.OPEN_URL, "https://vazkii.net/repost/")));
-                player.sendSystemMessage(url);
+                    MutableComponent url = Component.literal(ChatFormatting.GOLD + "* Click here for more information *");
+                    url.withStyle(url.getStyle().withClickEvent(new ClickEvent(ClickEvent.Action.OPEN_URL, "https://vazkii.net/repost/")));
+                    player.sendSystemMessage(url);
+                }
             }
         } catch (IOException e) {
-            Main.LOGGER.error(e);
+            YOURMOD.LOGGER.error(e);
         }
     }
 ```
@@ -160,7 +164,7 @@ I wrote these methods to better educate players about the problem of mod reposts
 
                     Files.writeString(marker, fileContent, StandardCharsets.UTF_8);
 
-                    // Nachrichten an den Spieler schicken
+                    YOURMOD.LOGGER.info("Stop-mod-reposts info message is generated. Don't worry, this message should only appear the very first time after installation!");
                     player.sendMessage(Text.literal("Important Information about mod reposts:\n").styled(style -> style.withUnderline(true).withColor(Formatting.DARK_RED)), false);
                     player.sendMessage(Text.literal("Sites like 9minecraft.net, mc-mod.net, etc. are known for reuploading mod files without permissions.\nThese sites will also contain a bunch of ads, to try to make money from mods they did not create.\n").styled(style -> style.withColor(Formatting.RED)), false);
                     player.sendMessage(Text.literal("For you, this can mean any of the following:").styled(style -> style.withUnderline(true).withColor(Formatting.RED)), false);
@@ -169,7 +173,6 @@ I wrote these methods to better educate players about the problem of mod reposts
                     player.sendMessage(Text.literal("- Old and broken mod versions that can corrupt your world").styled(style -> style.withColor(Formatting.RED)), false);
                     player.sendMessage(Text.literal("- Taking money and views away from the real authors, which may cause them to stop making mods").styled(style -> style.withColor(Formatting.RED)), false);
 
-                    // Klickbaren Link senden
                     player.sendMessage(
                             Text.literal("* Click here for more information *")
                                     .styled(style -> style.withColor(Formatting.GOLD).withClickEvent(new ClickEvent(ClickEvent.Action.OPEN_URL, "https://vazkii.net/repost/"))),
@@ -177,7 +180,7 @@ I wrote these methods to better educate players about the problem of mod reposts
                     );
                 }
             } catch (IOException e) {
-                AdditionalStructures.LOGGER.error("Failed to create marker file", e);
+                YOURMOD.LOGGER.error("Failed to create marker file", e);
             }
         });
     }

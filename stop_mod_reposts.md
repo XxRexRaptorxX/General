@@ -2,7 +2,7 @@ I wrote these methods to better educate players about the problem of mod reposts
 
 -----
 
-### Neoforge 
+### Neoforge / Forge
 ```
     /**
      * @author XxRexRaptorxX (RexRaptor)

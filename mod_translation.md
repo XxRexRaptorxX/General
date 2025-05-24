@@ -1,6 +1,6 @@
 # Description how to translate my mods
 
-`Requirements:`
+### Requirements:
 - let me know beforehand
 - only translate in your native language
 - good english knowledge
@@ -8,14 +8,14 @@
 
 -----
 
-`Rewards:`
+### Rewards:
 - you are now part of a mod! yey!
 - you are mentioned as a translator in the language file
 - you earn a special rank on [my discord](https://discord.gg/ycRJJk8EXV)
 
 -----
 
-`How it works:`
+### How it works:
 1. your get the file
 2. rename the file name to your language local code (https://minecraft.fandom.com/wiki/Language => ingame name)
 3. it's best to open and edit the file with the program Notepad++ (https://notepad-plus-plus.org/downloads/) or Eclipse & IntelliJ

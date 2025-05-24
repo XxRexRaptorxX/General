@@ -13,7 +13,7 @@ I wrote these methods to better educate players about the problem of mod reposts
      * You are welcome to implement this method in your own mods!
      */
     @SubscribeEvent
-    public static void onPlayerLogin(PlayerEvent.PlayerLoggedInEvent event) {
+    public static void showStopModRepostsInfo(PlayerEvent.PlayerLoggedInEvent event) {
         if (!(event.getEntity() instanceof ServerPlayer player)) return;
 
         Path configDir = FMLPaths.CONFIGDIR.get();
@@ -102,7 +102,7 @@ I wrote these methods to better educate players about the problem of mod reposts
 
 ### Fabric 
 ```java
-    /**
+/**
      * @author XxRexRaptorxX (RexRaptor)
      *
      * When entering a new MC installation for the first time, a message appears informing about the risks of mod reposts.
@@ -172,20 +172,21 @@ I wrote these methods to better educate players about the problem of mod reposts
 
                     if (!launcher.contains("curseforge") || !launcher.contains("modrinth") || !launcher.contains("prism")) {
                         YOURMOD.LOGGER.info("Stop-mod-reposts info message is generated. Don't worry, this message should only appear the very first time after installation!");
-                        player.sendSystemMessage(Component.literal("<-------------------------------------------------->").withStyle(ChatFormatting.RED));
-                        player.sendMessage(Text.literal("Important Information about mod reposts:\n").styled(style -> style.withUnderline(true).withColor(Formatting.DARK_RED)), false);
-                        player.sendMessage(Text.literal("Sites like 9minecraft.net, mc-mod.net, etc. are known for reuploading mod files without permissions.\nThese sites will also contain a bunch of ads, to try to make money from mods they did not create.\n").styled(style -> style.withColor(Formatting.RED)), false);
-                        player.sendMessage(Text.literal("For you, this can mean any of the following:").styled(style -> style.withUnderline(true).withColor(Formatting.DARK_RED)), false);
-                        player.sendMessage(Text.literal("- Modified versions of mods, which may contain malware & viruses").styled(style -> style.withColor(Formatting.RED)), false);
-                        player.sendMessage(Text.literal("- Having your information stolen from malicious ads").styled(style -> style.withColor(Formatting.RED)), false);
-                        player.sendMessage(Text.literal("- Old and broken mod versions that can corrupt your world").styled(style -> style.withColor(Formatting.RED)), false);
+                        player.sendMessage(Text.literal("<-------------------------------------------------->").setStyle(Style.EMPTY.withColor(Formatting.RED)), false);
+                        player.sendMessage(Text.literal("Important Information about mod reposts:\n").setStyle(Style.EMPTY.withUnderline(true).withColor(Formatting.DARK_RED)), false);
+                        player.sendMessage(Text.literal("Sites like 9minecraft.net, mc-mod.net, etc. are known for reuploading mod files without permissions.\nThese sites will also contain a bunch of ads, to try to make money from mods they did not create.\n").setStyle(Style.EMPTY.withColor(Formatting.RED)), false);
+                        player.sendMessage(Text.literal("For you, this can mean any of the following:").setStyle(Style.EMPTY.withUnderline(true).withColor(Formatting.DARK_RED)), false);
+                        player.sendMessage(Text.literal("- Modified versions of mods, which may contain malware & viruses").setStyle(Style.EMPTY.withColor(Formatting.RED)), false);
+                        player.sendMessage(Text.literal("- Having your information stolen from malicious ads").setStyle(Style.EMPTY.withColor(Formatting.RED)), false);
+                        player.sendMessage(Text.literal("- Old and broken mod versions that can corrupt your world").setStyle(Style.EMPTY.withColor(Formatting.RED)), false);
                         player.sendMessage(Text.literal("- Taking money and views away from the real authors, which may cause them to stop making mods").styled(style -> style.withColor(Formatting.RED)), false);
-                        player.sendSystemMessage(Component.empty());
-    
-                        player.sendMessage(Text.literal("* Click here for more information *").styled(style ->
-                            style.withColor(Formatting.GOLD).withClickEvent(new ClickEvent(ClickEvent.Action.OPEN_URL, "https://vazkii.net/repost/"))), false);
+                        player.sendMessage(Text.empty());
 
-                        player.sendSystemMessage(Component.literal("<-------------------------------------------------->").withStyle(ChatFormatting.RED));
+                        player.sendMessage(Text.literal("* Click here for more information *").setStyle(Style.EMPTY.withColor(Formatting.GOLD).withClickEvent(
+                                new ClickEvent(ClickEvent.Action.OPEN_URL, "https://vazkii.net/repost/")).withHoverEvent(
+                                new HoverEvent(HoverEvent.Action.SHOW_TEXT, Text.literal("?").setStyle(Style.EMPTY.withColor(Formatting.GRAY))))),false);
+
+                        player.sendMessage(Text.literal("<-------------------------------------------------->").setStyle(Style.EMPTY.withColor(Formatting.RED)), false);
                     }
                 }
             } catch (IOException e) {

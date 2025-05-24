@@ -183,8 +183,9 @@ I wrote these methods to better educate players about the problem of mod reposts
                         player.sendSystemMessage(Component.empty());
     
                         player.sendMessage(Text.literal("* Click here for more information *").styled(style ->
-style.withColor(Formatting.GOLD).withClickEvent(new ClickEvent(ClickEvent.Action.OPEN_URL, "https://vazkii.net/repost/"))), false);
-                    player.sendSystemMessage(Component.literal("<-------------------------------------------------->").withStyle(ChatFormatting.RED));
+                            style.withColor(Formatting.GOLD).withClickEvent(new ClickEvent(ClickEvent.Action.OPEN_URL, "https://vazkii.net/repost/"))), false);
+
+player.sendSystemMessage(Component.literal("<-------------------------------------------------->").withStyle(ChatFormatting.RED));
                     }
                 }
             } catch (IOException e) {

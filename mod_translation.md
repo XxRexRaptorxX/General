@@ -20,7 +20,7 @@
 2. rename the file name to your language local code (https://minecraft.fandom.com/wiki/Language => ingame name)
 3. it's best to open and edit the file with the program Notepad++ (https://notepad-plus-plus.org/downloads/) or Eclipse & IntelliJ
 4. add this line on the top of the file:
-```j
+```json
 "_comment": "translated by [YOUR USERNAME],"
 ```
 5. translate all names on the right side (if you are not sure what is meant by something, please contact me)

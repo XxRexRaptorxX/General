@@ -3,7 +3,7 @@ I wrote these methods to better educate players about the problem of mod reposts
 -----
 
 ### Neoforge / Forge
-```
+```java
     /**
      * @author XxRexRaptorxX (RexRaptor)
      *
@@ -76,17 +76,22 @@ I wrote these methods to better educate players about the problem of mod reposts
 
                 if (!launcher.contains("curseforge") || !launcher.contains("modrinth") || !launcher.contains("prism")) {
                     YOURMOD.LOGGER.info("Stop-mod-reposts info message is generated. Don't worry, this message should only appear the very first time after installation!");
+                    player.sendSystemMessage(Component.literal("<-------------------------------------------------->").withStyle(ChatFormatting.RED));
                     player.sendSystemMessage(Component.literal("Important Information about mod reposts:\n").withStyle(ChatFormatting.UNDERLINE).withStyle(ChatFormatting.DARK_RED));
                     player.sendSystemMessage(Component.literal("Sites like 9minecraft.net, mc-mod.net, etc. are known for reuploading mod files without permissions. \nThese sites will also contain a bunch of ads, to try to make money from mods they did not create.\n").withStyle(ChatFormatting.RED));
-                    player.sendSystemMessage(Component.literal("For you, this can mean any of the following:").withStyle(ChatFormatting.UNDERLINE).withStyle(ChatFormatting.RED));
+                    player.sendSystemMessage(Component.literal("For you, this can mean any of the following:").withStyle(ChatFormatting.UNDERLINE).withStyle(ChatFormatting.DARK_RED));
                     player.sendSystemMessage(Component.literal("- Modified versions of mods, which may contain malware & viruses").withStyle(ChatFormatting.RED));
                     player.sendSystemMessage(Component.literal("- Having your information stolen from malicious ads").withStyle(ChatFormatting.RED));
                     player.sendSystemMessage(Component.literal("- Old and broken mod versions that can corrupt your world").withStyle(ChatFormatting.RED));
                     player.sendSystemMessage(Component.literal("- Taking money and views away from the real authors, which may cause them to stop making mods").withStyle(ChatFormatting.RED));
+                    player.sendSystemMessage(Component.empty());
 
-                    MutableComponent url = Component.literal(ChatFormatting.GOLD + "* Click here for more information *");
-                    url.withStyle(url.getStyle().withClickEvent(new ClickEvent(ClickEvent.Action.OPEN_URL, "https://vazkii.net/repost/")));
+                    MutableComponent url = Component.literal(ChatFormatting.GOLD + "* Click here for more information *")
+                           .withStyle(style -> style.withClickEvent(new ClickEvent.OpenUrl(URI.create("https://vazkii.net/repost/")))
+                            .withColor(ChatFormatting.GOLD).withHoverEvent(new HoverEvent.ShowText(Component.literal("?").withStyle(ChatFormatting.GRAY))));
                     player.sendSystemMessage(url);
+
+                    player.sendSystemMessage(Component.literal("<-------------------------------------------------->").withStyle(ChatFormatting.RED));
                 }
             }
         } catch (IOException e) {
@@ -96,7 +101,7 @@ I wrote these methods to better educate players about the problem of mod reposts
 ```
 
 ### Fabric 
-```
+```java
     /**
      * @author XxRexRaptorxX (RexRaptor)
      *
@@ -166,24 +171,27 @@ I wrote these methods to better educate players about the problem of mod reposts
                     String launcher = FabricLauncherBase.getLauncher().getTargetNamespace().toLowerCase();
 
                     if (!launcher.contains("curseforge") || !launcher.contains("modrinth") || !launcher.contains("prism")) {
-                        AdditionalStructures.LOGGER.info("Stop-mod-reposts info message is generated. Don't worry, this message should only appear the very first time after installation!");
+                        YOURMOD.LOGGER.info("Stop-mod-reposts info message is generated. Don't worry, this message should only appear the very first time after installation!");
+                        player.sendSystemMessage(Component.literal("<-------------------------------------------------->").withStyle(ChatFormatting.RED));
                         player.sendMessage(Text.literal("Important Information about mod reposts:\n").styled(style -> style.withUnderline(true).withColor(Formatting.DARK_RED)), false);
                         player.sendMessage(Text.literal("Sites like 9minecraft.net, mc-mod.net, etc. are known for reuploading mod files without permissions.\nThese sites will also contain a bunch of ads, to try to make money from mods they did not create.\n").styled(style -> style.withColor(Formatting.RED)), false);
-                        player.sendMessage(Text.literal("For you, this can mean any of the following:").styled(style -> style.withUnderline(true).withColor(Formatting.RED)), false);
+                        player.sendMessage(Text.literal("For you, this can mean any of the following:").styled(style -> style.withUnderline(true).withColor(Formatting.DARK_RED)), false);
                         player.sendMessage(Text.literal("- Modified versions of mods, which may contain malware & viruses").styled(style -> style.withColor(Formatting.RED)), false);
                         player.sendMessage(Text.literal("- Having your information stolen from malicious ads").styled(style -> style.withColor(Formatting.RED)), false);
                         player.sendMessage(Text.literal("- Old and broken mod versions that can corrupt your world").styled(style -> style.withColor(Formatting.RED)), false);
                         player.sendMessage(Text.literal("- Taking money and views away from the real authors, which may cause them to stop making mods").styled(style -> style.withColor(Formatting.RED)), false);
-
+                        player.sendSystemMessage(Component.empty());
+    
                         player.sendMessage(
                                 Text.literal("* Click here for more information *")
                                         .styled(style -> style.withColor(Formatting.GOLD).withClickEvent(new ClickEvent(ClickEvent.Action.OPEN_URL, "https://vazkii.net/repost/"))),
                                 false
                         );
+                    player.sendSystemMessage(Component.literal("<-------------------------------------------------->").withStyle(ChatFormatting.RED));
                     }
                 }
             } catch (IOException e) {
-                AdditionalStructures.LOGGER.error("Failed to create marker file", e);
+                YOURMOD.LOGGER.error("Failed to create marker file", e);
             }
         });
     }

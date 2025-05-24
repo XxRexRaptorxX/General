@@ -182,11 +182,8 @@ I wrote these methods to better educate players about the problem of mod reposts
                         player.sendMessage(Text.literal("- Taking money and views away from the real authors, which may cause them to stop making mods").styled(style -> style.withColor(Formatting.RED)), false);
                         player.sendSystemMessage(Component.empty());
     
-                        player.sendMessage(
-                                Text.literal("* Click here for more information *")
-                                        .styled(style -> style.withColor(Formatting.GOLD).withClickEvent(new ClickEvent(ClickEvent.Action.OPEN_URL, "https://vazkii.net/repost/"))),
-                                false
-                        );
+                        player.sendMessage(Text.literal("* Click here for more information *").styled(style ->
+style.withColor(Formatting.GOLD).withClickEvent(new ClickEvent(ClickEvent.Action.OPEN_URL, "https://vazkii.net/repost/"))), false);
                     player.sendSystemMessage(Component.literal("<-------------------------------------------------->").withStyle(ChatFormatting.RED));
                     }
                 }

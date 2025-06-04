@@ -1,50 +1,56 @@
 ## FAQ
 
-Q: I found a bug, where should i report it?
+#### Q: I found a bug, where should i report it?
 
-A: In the bug tracker of the curseforge page from the mod.
-
------
-
-Q: I have another problem, where should i report it?
-
-A: In the #help channel of my discord or in the comments.
+A: In the bug tracker of the [curseforge page](https://www.curseforge.com/members/xxrexraptorxx/projects) from the mod.
 
 -----
 
-Q: I have a suggestion, where should i report it?
+#### Q: I have another problem, where should i report it?
 
-A: In the #feedback channel in my discord or in the comments.
+A: In the #help channel of my [discord](https://www.curseforge.com/linkout?remoteUrl=https%253a%252f%252fdiscord.com%252finvite%252fycRJJk8EXV) or in the comments of the [project page](https://www.curseforge.com/members/xxrexraptorxx/projects).
 
 -----
 
-Q: Do you intend to port the mod to an older version?
+#### Q: I have a suggestion, where should i report it?
+
+A: In the #feedback channel in my [discord](https://www.curseforge.com/linkout?remoteUrl=https%253a%252f%252fdiscord.com%252finvite%252fycRJJk8EXV) or in the comments of the [project page](https://www.curseforge.com/members/xxrexraptorxx/projects).
+
+-----
+
+#### Q: Do you intend to port the mod to an older version?
 
 A: I don't usually do backports.
 
 -----
 
-Q: Do you also bring the mod for fabric?
+#### Q: Do you also bring the mod for fabric/forge/...?
 
 A: No.
 
 -----
 
-Q: Can i add your mod in my modpack?
+#### Q: Can i help you with your mods?
 
-A: Yes, but it has to be linked to the project page and the author (XxRexRaptorxX) has to be mentioned. (Curseforge modpacks meet this criterion by default)
+A: Yes, i can always use help. If you know your way around, feel free to contact me and support me! You get something in return! Also, most of my mods are open source on [Github](https://github.com/XxRexRaptorxX) and you can always commit code to me with them.
 
 -----
 
-Q: Can i make a video/tutorial/let's play/... about your mod or project?
+#### Q: Can i add your mod in my modpack?
+
+A: Yes, but it has to be linked to the project page and the author ([XxRexRaptorxX](https://www.curseforge.com/members/xxrexraptorxx/projects)) has to be mentioned. [Curseforge](https://www.curseforge.com) or [Modrinth](https://modrinth.com) modpacks meet this criterion by default)
+
+-----
+
+#### Q: Can i make a video/tutorial/let's play/... about your mod or project?
 
 A: Of course! But a mention in the video description would be great. You can send me a link, then it might make it to the project page.
 
 -----
 
-Q: Can i upload your projects to another site?
+#### Q: Can i upload your projects to another site?
 
-A: wtf no?!
+A: wtf no?! [#STOP-MOD-REPOSTS!](https://stopmodreposts.org)
 
 <p align="center">
   <img src="https://github.com/XxRexRaptorxX/General/blob/main/page_decorations/line.png?raw=true" alt="line" width="2000"/>
@@ -54,7 +60,7 @@ A: wtf no?!
 
 This MOD may only be distributed where uploaded, mirrored, or otherwise linked to by the OWNER solely. All mirrors of this mod must have advance written permission from the OWNER. ANY attempts to make money off of this MOD (selling, selling modified versions, adfly, sharecash, etc.) are STRICTLY FORBIDDEN, and the OWNER may claim damages or take other action to rectify the situation.
 
-Mod reposts (without the rights of the mod creators) are STRICKTLY FORBIDDEN!
+Mod reposts (without the rights of the mod creators) are STRICKTLY FORBIDDEN! [#STOP-MOD-REPOSTS!](https://stopmodreposts.org)
 
 
 #### Youtube & Co.

@@ -50,6 +50,28 @@ A: wtf no?!
   <img src="https://github.com/XxRexRaptorxX/General/blob/main/page_decorations/line.png?raw=true" alt="line" width="2000"/>
 </p>
 
+## Rights
+
+This MOD may only be distributed where uploaded, mirrored, or otherwise linked to by the OWNER solely. All mirrors of this mod must have advance written permission from the OWNER. ANY attempts to make money off of this MOD (selling, selling modified versions, adfly, sharecash, etc.) are STRICTLY FORBIDDEN, and the OWNER may claim damages or take other action to rectify the situation.
+
+Mod reposts (without the rights of the mod creators) are STRICKTLY FORBIDDEN!
+
+
+#### Youtube & Co.
+
+Let's Plays, Reviews and videos are okay, but please write the link to this post in the descriprion. It would be nice to contact me if you recorded a video, so I could paste it in here ;)
+
+
+#### Modpacks:
+
+You want this mod in your mod pack?
+- Your mod pack needs a link back to this post.
+- You cannot claim that you made any part of the mod, and you must give credit to the author of the mod.
+
+<p align="center">
+  <img src="https://github.com/XxRexRaptorxX/General/blob/main/page_decorations/line.png?raw=true" alt="line" width="2000"/> <br>
+</p>
+
 <p align="center">
   <a href="https://github.com/XxRexRaptorxX"><img src="https://github.com/XxRexRaptorxX/General/blob/main/icons/github_icon_bg.png?raw=true" alt="Github" width="70"/></a>
   <a href="https://ko-fi.com/xxrexraptorxx"><img src="https://github.com/XxRexRaptorxX/General/blob/main/icons/kofi_icon_bg.png?raw=true" alt="Ko-Fi" width="70"/></a>

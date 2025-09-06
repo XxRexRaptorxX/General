@@ -24,7 +24,13 @@ A: I don't usually do backports.
 
 -----
 
-#### Q: Do you also bring the mod for fabric/forge/...?
+#### Q: Why are there no more Forge versions?
+
+A: Pretty much the entire old Forge team has parted ways with its founder for understandable reasons and is now developing its own vision of the mod loader. I support this and will only support NeoForge for new MC versions. I advise you to do the same. If you are looking for more information, you can find it [here](https://neoforged.net/news/theproject/).
+
+-----
+
+#### Q: Do you also bring the mod for Fabric/Forge/...?
 
 A: No.
 

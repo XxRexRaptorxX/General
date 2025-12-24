@@ -1,4 +1,8 @@
-## FAQ
+<p align="center">
+  <img src="https://media.tenor.com/M6uoQUV4ZJwAAAAi/hmmm-villiage.gif" alt="thinking villager" width="100"/>
+</p>
+
+# FAQ 
 
 #### Q: I found a bug, where should i report it?
 

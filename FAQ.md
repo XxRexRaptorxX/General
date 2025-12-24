@@ -24,6 +24,12 @@ A: I don't usually do backports.
 
 -----
 
+#### Q: Why do you prefer to release updates for newer versions?
+
+A: I have to update my mods at some point anyway, so it only makes sense to use my limited time to create the new versions first. Even if I skip minor versions, I still have to implement the part I skipped into the new version afterwards. And above all, if there are already playable mod versions for older MC versions, I prefer to support MC versions that are not yet playable with my mod in order to give more people access to it!
+
+-----
+
 #### Q: Why are there no more Forge versions?
 
 A: Pretty much the entire old Forge team has parted ways with its founder for understandable reasons and is now developing its own vision of the mod loader. I support this and will only support NeoForge for new MC versions. I advise you to do the same. If you are looking for more information, you can find it [here](https://neoforged.net/news/theproject/).

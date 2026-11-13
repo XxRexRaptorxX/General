@@ -1,8 +1,13 @@
+<p align="center">
+  <a href="https://github.com/XxRexRaptorxX/General/blob/main/LICENSE.md"><img src="https://img.shields.io/badge/License-ARR_%2B_Permissions-242629?style=flat&labelColor=34aeeb" alt="License"></a>
+  <a href="https://github.com/XxRexRaptorxX/General/blob/main/LICENSE.md"><img src="https://img.shields.io/badge/Sunset-48_Months_→_LGPL_3.0-242629?style=flat&labelColor=eb8334" alt="License"></a>
+</p>
+
 # License
 
 Copyright (c) 2026 `XxRexRaptorxX`
 
-All rights reserved.
+`All rights reserved.`
 
 This software is not open source. No rights are granted except those
 expressly stated below.
@@ -42,8 +47,7 @@ holder, and under the licence named in the Sunset clause below.
 The following require prior written consent of the copyright holder:
 
 **5.** Publishing compiled builds of this mod, whether modified or
-unmodified, anywhere other than the official channels listed in the
-README.
+unmodified, anywhere other than the official channels.
 
 **6.** Publishing a modified version of this mod as a separate or renamed
 project.
